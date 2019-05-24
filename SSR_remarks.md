@@ -1,3 +1,13 @@
+# SSR一键安装命令 #
+    wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssrmu.sh && chmod +x ssrmu.sh && bash ssrmu.sh
+
+SSR管理命令`bash ssrmu.sh`
+
+# SS一键安装 #
+    wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks.sh
+    chmod +x shadowsocks.sh
+    ./shadowsocks.sh 2>&1 | tee shadowsocks.log 
+
 # SS相关命令 #
 
 启动：`/etc/init.d/shadowsocks start` 
